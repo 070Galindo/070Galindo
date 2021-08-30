@@ -2,13 +2,13 @@ package AppCode;
 
 public class Rectangle {
     //#region - public properties
-    private int _height;
-    public void setHeight(int height) { _height = height; }
-    public int getHeight() { return _height; }
+    private int height;
+    public void setHeight(int height) { this.height = height; }
+    public int getHeight() { return height; }
 
-    private int _width;
-    public void setWidth(int width) { _width = width; }
-    public int getWidth() { return _width; }
+    private int width;
+    public void setWidth(int width) { this.width = width; }
+    public int getWidth() { return width; }
     //#endregion
 
 
@@ -22,7 +22,7 @@ public class Rectangle {
 
     //#region - public methods
     public int getArea() {
-        return _height * _width;
+        return height * width;
     }
     //#endregion
 }
